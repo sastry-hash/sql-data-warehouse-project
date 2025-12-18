@@ -1,5 +1,4 @@
-# sql-data-warehouse-project
-Building an mordern data warehouse
+
 # SQL Data Warehouse Project
 
 This repository demonstrates the design and implementation of a
