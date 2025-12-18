@@ -52,7 +52,7 @@ CREATE TABLE Silver.crm_sales_details (
 
 
 -------------------------------
--- 4️⃣ SILVER.ERP_LOC_A101
+-- 4️ SILVER.ERP_LOC_A101
 -------------------------------
 CREATE TABLE Silver.erp_loc_a101 (
     cid      VARCHAR(50)   NOT NULL,
