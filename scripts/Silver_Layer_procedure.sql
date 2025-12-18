@@ -8,7 +8,7 @@ BEGIN
         BEGIN TRAN;
 
         /* =========================================================
-           1️⃣  CRM — CUSTOMER INFO  (cst_info)
+           1️  CRM — CUSTOMER INFO  (cst_info)
            ========================================================= */
         IF OBJECT_ID('Silver.crm_cust_info') IS NOT NULL 
             TRUNCATE TABLE Silver.crm_cust_info;
@@ -48,7 +48,7 @@ BEGIN
 
 
         /* =========================================================
-           2️⃣  CRM — PRODUCT INFO  (prd_info)
+           2️  CRM — PRODUCT INFO  (prd_info)
            ========================================================= */
 
         IF OBJECT_ID('Silver.crm_prod_info') IS NOT NULL 
@@ -84,10 +84,10 @@ BEGIN
 
 
         /* =========================================================
-           3️⃣  CRM — SALES DETAILS  (sales_details)
+           3️  CRM — SALES DETAILS  (sales_details)
            ========================================================= */
 
-        /* ⚠️ FIXED based on your REAL Bronze schema */
+        /*  FIXED based on your REAL Bronze schema */
         IF OBJECT_ID('Silver.crm_sales_details') IS NOT NULL 
             TRUNCATE TABLE Silver.crm_sales_details;
 
@@ -115,7 +115,7 @@ BEGIN
 
 
         /* =========================================================
-           4️⃣  ERP — LOCATION A101  
+           4️  ERP — LOCATION A101  
            ========================================================= */
 
         IF OBJECT_ID('Silver.erp_loc_a101') IS NOT NULL 
@@ -135,7 +135,7 @@ BEGIN
 
 
         /* =========================================================
-           5️⃣  ERP — CUSTOMER AZ12  
+           5️  ERP — CUSTOMER AZ12  
            ========================================================= */
 
         IF OBJECT_ID('Silver.erp_cust_az12') IS NOT NULL 
@@ -161,7 +161,7 @@ BEGIN
 
 
         /* =========================================================
-           6️⃣  EXP — PX CAT G1V2  
+           6️ EXP — PX CAT G1V2  
            ========================================================= */
 
         IF OBJECT_ID('Silver.exp_px_cat_g1v2') IS NOT NULL 
